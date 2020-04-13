@@ -1,5 +1,7 @@
-def using_concat
+def using_concat()
 
+
+end
 
 describe "using_concat" do 
   before(:each) do 

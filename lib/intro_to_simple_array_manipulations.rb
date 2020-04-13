@@ -16,7 +16,8 @@ new_array = haircuts.uniq
 end
 
 def using_flatten(private_colleges_in_newyork)
-  private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
+  instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+     flat_array = using_flatten(instruments)
   flat_array = private_colleges_in_newyork.flatten
 end
 

@@ -15,7 +15,7 @@ def using_uniq(haircuts)
 new_array = haircuts.uniq
 end
 
-def using_flatten(private_colleges_in_newyork)
+def using_flatten(instruments)
   instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
      flat_array = using_flatten(instruments)
   flat_array = private_colleges_in_newyork.flatten
